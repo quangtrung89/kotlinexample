@@ -1,0 +1,36 @@
+package com.trung.kotlinexample.model.loginResult
+
+import com.google.gson.annotations.SerializedName
+
+data class UserInfo(val addresses: List<AddressesItem>?,
+                    val notes: String? = null,
+                    val checkedInStatus: Boolean = false,
+                    val deviceDetail: DeviceDetail?,
+                    val latitude: Double = 0.0,
+                    val sendMail: Boolean = false,
+                    val currentlyAvailable: Boolean = false,
+                    val organizationId: String = "",
+                    val userPreferences: String? = null,
+                    val createdTime: String = "",
+                    val lastUpdatedTime: String = "",
+                    val sendPush: Boolean = false,
+                    val id: String = "",
+                    val maxConcurrentSessions: Int = 0,
+                    val longitude: Double = 0.0,
+                    val deviceType: String = "",
+                    val image: String? = null,
+                    val lastActiveTime: Long = 0,
+                    val organizationName: String = "",
+                    val lastModifiedBy: String = "",
+                    val active: Boolean = false,
+                    val usertype: String = "",
+                    val preferedLanguage: String = "",
+                    val userId: String = "",
+                    @SerializedName("_refs")
+                    val Refs: Refs?,
+                    val deviceToken: String = "",
+                    val system: Boolean = false,
+                    val sendSms: Boolean = false,
+                    val createdBy: String = "",
+                    val status: String = "",
+                    val inActiveTime: String? = null)

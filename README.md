@@ -1,0 +1,1 @@
+Example of Kotlin for MVVM pattern

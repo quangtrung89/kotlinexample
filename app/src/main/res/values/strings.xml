@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SERV</string>
+    <string name="app_description">Retail Services Simplified</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="pleaseInputUserName">Please input username</string>
+    <string name="pleaseInputPassword">Please input password</string>
+    <string name="error_network">Check the network and try again</string>
+    <string name="loading">Loading..Please wait!!</string>
+</resources>
